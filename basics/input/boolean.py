@@ -1,0 +1,10 @@
+a="mahi"
+b=0.0001
+c=0.000
+e=10+20j
+f=0+0j
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(e))
+print(bool(f))

@@ -1,0 +1,5 @@
+k = frozenset({"apple", "banana", "orange"})
+x1=bytes(1,2,3,4,5)	
+y = bytearray(5)
+y1=bytearray([1,2,3,4,5,6])
+j=range(8)
