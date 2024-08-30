@@ -21,9 +21,9 @@ for y in emp.values():
 # True
 
 for a,b in emp.items():
-    print(a,b)
+    print(a,":",b)
 # Dict_Name.items() -> a set-like object providing a view on Dict_Name items
-# eid 101
-# ename Rahul
-# esal 45000.45
-# avail True
+# eid : 101
+# ename : Rahul
+# esal : 45000.45
+# avail : True
