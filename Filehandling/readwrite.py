@@ -1,0 +1,7 @@
+fp1=open("one.txt","r")
+data=fp1.read()
+fp2=open("two.txt","w")
+fp2.write(data)
+print("new file created")
+fp1.close()
+fp2.close()
