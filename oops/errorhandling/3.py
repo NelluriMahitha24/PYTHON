@@ -1,6 +1,17 @@
-class insuffient(Exception):
-    def __init__(self,msg):
+class InsuffientBalError(Exception):
+    def _init_(self,msg):
         self.msg=msg
-raise ZeroDivisionError("cant divide by zero")
-raise insuffient("low bal")
-print("gm")
+
+def withdrawl():
+    try:
+        amount = int(input("Enter Amout to withdrawl:"))
+        acc_bal  = 5000
+        if acc_bal > amount:
+            print("Withdrawl and enjoy")
+        else:
+            raise InsuffientBalError("Low Bal")
+    except InsuffientBalError as err:
+        print(err.msg)
+
+withdrawl()
+print("Good Morning")
